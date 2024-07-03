@@ -127,24 +127,6 @@
       "objectsGroups": [],
       "variables": [
         {
-          "folded": true,
-          "name": "Team",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "X",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "Y",
-          "type": "number",
-          "value": 0
-        },
-        {
           "name": "Color",
           "type": "array",
           "children": [
