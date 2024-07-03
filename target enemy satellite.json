@@ -86,8 +86,44 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
         "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite - Copy.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite - Copy.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite - Copy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite2.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3 - Copy.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite3 - Copy.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite3 - Copy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite3.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -125,24 +161,7 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [
-        {
-          "name": "Color",
-          "type": "array",
-          "children": [
-            {
-              "folded": true,
-              "type": "string",
-              "value": "0;0;255"
-            },
-            {
-              "folded": true,
-              "type": "string",
-              "value": "0;255;0"
-            }
-          ]
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -545,6 +564,103 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "assets\\NewSprite - Copy",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\NewSprite - Copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 28.5,
+                        "y": 35.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 28.5,
+                        "y": 35.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7.5,
+                            "y": 41.5
+                          },
+                          {
+                            "x": 4,
+                            "y": 34
+                          },
+                          {
+                            "x": 7,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 21.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 30,
+                            "y": 16.5
+                          },
+                          {
+                            "x": 38,
+                            "y": 17.5
+                          },
+                          {
+                            "x": 45,
+                            "y": 21
+                          },
+                          {
+                            "x": 50,
+                            "y": 26
+                          },
+                          {
+                            "x": 51.5,
+                            "y": 34.5
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 41.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 47
+                          },
+                          {
+                            "x": 35,
+                            "y": 51
+                          },
+                          {
+                            "x": 28.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 21.5,
+                            "y": 51
+                          },
+                          {
+                            "x": 14,
+                            "y": 46.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -619,6 +735,54 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\NewSprite3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 8
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -647,7 +811,7 @@
           ],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "assets\\NewSprite3 - Copy",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -657,7 +821,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
+                      "image": "assets\\NewSprite3 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -737,11 +901,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ChangeColor"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Satellite",
-                    "Color[Satellite.Team]"
+                    "Animation",
+                    "=",
+                    "Satellite.Team"
                   ]
                 }
               ],
@@ -765,6 +931,17 @@
                     },
                     {
                       "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Target",
+                        "Team",
+                        "=",
+                        "Satellite.Team"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Sticker::Sticker::Stick"
                       },
                       "parameters": [
@@ -776,13 +953,10 @@
                     },
                     {
                       "type": {
-                        "value": "SetNumberObjectVariable"
+                        "value": "Cache"
                       },
                       "parameters": [
-                        "Target",
-                        "Team",
-                        "=",
-                        "Satellite.Team"
+                        "Target"
                       ]
                     }
                   ]
@@ -858,11 +1032,13 @@
                 },
                 {
                   "type": {
-                    "value": "ChangeColor"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Fireball",
-                    "Color[Satellite.Team]"
+                    "Animation",
+                    "=",
+                    "Satellite.Team"
                   ]
                 },
                 {
@@ -1042,10 +1218,6 @@
         {
           "name": "Sticker",
           "type": "Sticker::Sticker"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
